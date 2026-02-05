@@ -9,7 +9,7 @@ I have organized my work into folders by semester to show my progression over ti
     * `Computer-Programming-Lab/` — Bank Management System 
     * `Introduction-to-Information-&-Communication-Technology-Lab/` — HealthCare Automation System
 * **Semester 2**
-    * `Object-Oriented-Programming-Lab/` — Jewellery Mangement System
+    * `Object-Oriented-Programming-Lab/` — GemCrafts Solution (adv Jewellery Mangement System)
     * `Digital-Logic-Design-Lab/` — Room Security & Automation
 * **Semester 3**
     * `Data-Structures-and-Algorithms-Lab/` — Snake Game using Doubly Linked List
