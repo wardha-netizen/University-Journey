@@ -1,30 +1,25 @@
-# Smart Port Network Security Architecture
-**Course:** Computer Communication & Networks Lab (Semester 3)
-**Environment:** GNS3 (Integrated with VMware/VirtualBox)
+# Smart Port Network Security Architecture 
+**Tool:** GNS3 (Integrated with VMware/VirtualBox)
+
+##  Network Topology
+![Smart Port Topology](./topology.png)
 
 ##  Project Overview
-This project replicates a **Real-World Smart Harbor** environment. It addresses the critical need for security in an integrated infrastructure where digital surveillance, cargo tracking, and administrative operations coexist. The architecture follows a **Multi-Zone Defense-in-Depth** strategy to prevent unauthorized access and perimeter vulnerabilities.
+This project simulates a **Smart Harbor** environment. It uses a **Multi-Zone Defense-in-Depth** strategy to secure administrative, operational, and surveillance data.
 
-##  Security Architecture & Zones
-The network is logically segmented into specific security zones to ensure granular control:
-* **Administrative Zone (VLAN 10):** Secure network for management and harbor-master operations.
-* **Operational Zone (VLAN 20):** Dedicated to port machinery, cargo tracking, and IoT sensors.
-* **Surveillance Zone (VLAN 30):** High-bandwidth zone for real-time security camera feeds.
-* **DMZ (Demilitarized Zone):** External-facing services isolated from the internal port network.
+##  Security Zones
+* **Administrative (VLAN 10):** Harbor-master operations.
+* **Operational (VLAN 20):** Cargo tracking and IoT sensors.
+* **Surveillance (VLAN 30):** Security camera feeds.
+* **DMZ:** Isolated zone for external-facing services.
 
 
 
 ##  Technical Implementation
-* **Defense-in-Depth:** Layered security using **FortiGate Firewalls** and Access Control Lists (ACLs).
-* **GNS3 Virtualization:** Leveraged the GNS3 VM to run high-performance network nodes and Docker containers.
-* **Inter-VLAN Routing:** Configured on the core "Harbor-Master" router to allow controlled communication between departments.
-* **Traffic Validation:** Comprehensive testing including Perimeter Exit Validation and ICMP reachability audits.
+* **Firewalling:** Layered security using **FortiGate Firewalls**.
+* **Virtualization:** Uses GNS3 VM to run high-performance network nodes.
+* **Routing:** Inter-VLAN routing configured on the core router.
 
 ##  Project Files
-* **[port-report.pdf](./port-report.pdf):** Detailed 10+ page technical report covering topology, OSI mapping, and troubleshooting.
-* **[Smart-Port-Project.gns3](./Smart-Port-Project.gns3):** The primary GNS3 project file containing the network topology and node configurations.
-
-## 🛠️ Tech Stack
-* **Simulation:** GNS3, VMware Workstation.
-* **Security:** FortiGate Firewall, Cisco IOS.
-* **Monitoring:** Wireshark (for packet inspection).
+* **[port-report.pdf](./port-report.pdf)**: Technical documentation.
+* **[Smart-Port-Project.gns3](./Smart-Port-Project.gns3)**: GNS3 project file.
