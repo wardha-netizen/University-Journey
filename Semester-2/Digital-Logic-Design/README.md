@@ -12,6 +12,6 @@ A comprehensive smart room system designed and simulated in **Multisim**. This p
 * **[DLDProject-Report.pdf](./DLDProject-Report.pdf):** Detailed technical report, objectives, and logic diagrams.
 * **[DLD-Simulation-Files.zip](./DLD-Simulation-Files.zip):** Complete Multisim (.ms14) circuit files and simulation data.
 
-## 🛠️ Tools & Tech
+##  Tools & Tech
 * **Software:** Multisim
 * **Logic:** Combinational (XNOR, AND, OR) & Sequential (JK Flip-Flops)
