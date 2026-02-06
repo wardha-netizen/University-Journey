@@ -15,6 +15,7 @@ A classic Snake Game implemented in **C++** using a **Doubly Linked List** to ma
 
 ##  Project Files
 * **[SnakeGameDoublyLinkedList.cpp](./SnakeGameDoublyLinkedList.cpp):** The complete C++ source code.
+* **[DSAProject-Proposal.pdf](./dsa-proposal.pdf):**Proposal presented before implementing ideas!
 * **[DSAProject-Report.pdf](./DSAProject-Report.pdf):** Detailed technical report and algorithm analysis.
 
 ##  Tech Stack
